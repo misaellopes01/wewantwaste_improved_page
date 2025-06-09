@@ -75,7 +75,7 @@ export function StepIndicator({ currentStep }: StepIndicatorProps) {
                       </p>
                     </div>
                     {stepIdx !== steps.length - 1 && (
-                      <div className="absolute top-6 left-12 w-full h-1 bg-gray-200 rounded-full">
+                      <div className="absolute top-10 left-12 w-full h-1 bg-gray-200 rounded-full">
                         <div
                           className={cn(
                             "h-full bg-gradient-to-r from-green-600 to-emerald-600 rounded-full transition-all duration-500",
@@ -122,7 +122,7 @@ export function StepIndicator({ currentStep }: StepIndicatorProps) {
                     </p>
                   </div>
                   {stepIdx < steps.length - 1 && stepIdx % 3 === 2 && (
-                    <div className="absolute top-10 left-full w-4 h-0.5 bg-gray-200">
+                    <div className="absolute top-5 left-full w-4 h-0.5 bg-gray-200">
                       <div
                         className={cn(
                           "h-full bg-gradient-to-r from-green-600 to-emerald-600 transition-all duration-500",

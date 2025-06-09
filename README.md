@@ -269,7 +269,7 @@ npm run analyze
 - **Environmental Impact**: Clear communication of eco-benefits
 - **Sustainable Branding**: Consistent green theming
 
-## 🚀 Deployment & DevOps
+## 🚀 Deployment
 
 ### Build Process
 ```bash
@@ -285,30 +285,6 @@ npm run lint
 
 ### Deployment Platforms
 - **Vercel**: Recommended for Next.js applications
-
-## 🧪 Testing Strategy
-
-### Unit Testing
-```typescript
-// Component testing with Jest & React Testing Library
-import { render, screen } from '@testing-library/react'
-import { SkipCard } from './skip-card'
-
-test('renders skip card with correct price', () => {
-  render(<SkipCard skip={mockSkip} onSelect={jest.fn()} />)
-  expect(screen.getByText('£211')).toBeInTheDocument()
-})
-```
-
-### Integration Testing
-- **User Flow Testing**: Complete booking process
-- **API Integration**: Mock API responses
-- **Cross-browser Testing**: Chrome, Firefox, Safari
-
-### Accessibility Testing
-- **axe-core**: Automated accessibility testing
-- **Screen Reader Testing**: Manual testing with NVDA/JAWS
-- **Keyboard Navigation**: Tab order and focus management
 
 ## 📈 Future Enhancements
 
