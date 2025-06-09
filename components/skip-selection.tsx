@@ -55,7 +55,7 @@ export function SkipSelection() {
             <div className="p-3 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full">
               <Recycle className="h-8 w-8 text-white" />
             </div>
-            <h1 className="sm:text-lg max-lg:text-5xl font-bold bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">
+            <h1 className="max-lg:text-2xl font-bold bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">
               Choose Your Eco Skip
             </h1>
           </div>
