@@ -269,28 +269,6 @@ npm run analyze
 - **Environmental Impact**: Clear communication of eco-benefits
 - **Sustainable Branding**: Consistent green theming
 
-## 📊 Analytics & Tracking
-
-### User Interaction Tracking
-```typescript
-// Example tracking implementation
-const handleSkipSelect = (skipId: number) => {
-  // Analytics tracking
-  analytics.track('skip_selected', {
-  skip_id: skipId,
-  skip_size: selectedSkip.size,
-  price: selectedSkip.price_before_vat
-  })
-  
-  setSelectedSkip(skipId)
-}
-```
-
-### Performance Metrics
-- **Core Web Vitals**: LCP, FID, CLS optimization
-- **User Experience**: Conversion funnel tracking
-- **Error Monitoring**: Runtime error tracking
-
 ## 🚀 Deployment & DevOps
 
 ### Build Process
