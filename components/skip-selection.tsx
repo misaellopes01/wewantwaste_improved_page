@@ -117,7 +117,7 @@ export function SkipSelection() {
               </div>
               <Button
                 onClick={handleContinue}
-                className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 px-6 py-3 hover:text-gray-100 text-sm font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-400"
+                className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 px-6 py-3 hover:text-gray-100   text-sm font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-400"
               >
                 <Leaf className="mr-2 h-4 w-4" />
                 Continue to Permit Check
