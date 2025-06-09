@@ -75,7 +75,7 @@ export function StepIndicator({ currentStep }: StepIndicatorProps) {
                       </p>
                     </div>
                     {stepIdx !== steps.length - 1 && (
-                      <div className="absolute top-10 left-12 w-full h-1 bg-gray-200 rounded-full">
+                      <div className="absolute top-6 left-12 w-full h-1 bg-gray-200 rounded-full">
                         <div
                           className={cn(
                             "h-full bg-gradient-to-r from-green-600 to-emerald-600 rounded-full transition-all duration-500",
