@@ -64,10 +64,10 @@ export function StepIndicator({ currentStep }: StepIndicatorProps) {
                         {step.completed ? <Check className="h-6 w-6" /> : <step.icon className="h-6 w-6" />}
                       </div>
                     </div>
-                    <div className="ml-4 min-w-0 flex-1">
+                    <div className="ml-4 pb-4 min-w-0 flex-1">
                       <p
                         className={cn(
-                          "text-sm font-semibold transition-colors",
+                          "text-sm font-semibold transition-colors ",
                           step.completed || step.current ? "text-gray-800" : "text-gray-500",
                         )}
                       >
